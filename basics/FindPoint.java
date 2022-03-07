@@ -25,6 +25,19 @@ Output
 
 package basics;
 
+import java.util.Scanner;
+
 public class FindPoint {
-    
+        public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int px=sc.nextInt();
+        int py=sc.nextInt();
+        int qx=sc.nextInt();
+        int qy=sc.nextInt();
+
+        int zx=(2*qx)-px;
+        int zy=(2*qy)-py;
+
+        System.out.println(zx+" "+zy);
+    }
 }
