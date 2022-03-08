@@ -69,5 +69,6 @@ public class chefoperators {
 		if(a>b) System.out.println(">");
 			else if(a<b) System.out.println("<");
 				else System.out.println("=");
-    }}
+    }
+sc.close();}
 }
