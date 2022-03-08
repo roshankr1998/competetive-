@@ -1,3 +1,40 @@
+/*
+Chef wants to calculate his Electricity bill,Help him to do so
+
+Acc to Conditions:-
+
+For First 50 units Rs 0.50/unit
+
+For next 100 units Rs 0.75/unit
+
+For next 100 units Rs 1.20/unit
+
+For unit above 250 Rs 1.50/unit
+
+An additional surcharge of 20% is added to the bill
+
+Input
+Integer n(number of units he consumed).
+
+ 
+
+Output
+Bill Amount.
+
+ 
+
+Constraints
+1<=N<=10000
+
+ 
+
+Example
+Input:
+ 150
+Output:
+120.00*/
+
+
 package basics.loops;
 
 import java.util.Scanner;
