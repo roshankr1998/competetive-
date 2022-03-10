@@ -29,5 +29,6 @@ public class rockpaperscissor {
             if(sum>=(Math.ceil(n/2))) System.out.println("Yes");
             else System.out.println("No");
         }
+        sc.close();
     }
 }
