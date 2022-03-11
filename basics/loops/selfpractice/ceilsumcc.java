@@ -22,6 +22,6 @@ public class ceilsumcc {
                 double sum=Math.ceil((x-a)/2)+Math.ceil((b-x)/2);
                 
             System.out.println((int)sum);
-        }
+        }sc.close();
     }
 }

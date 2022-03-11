@@ -25,6 +25,7 @@ public class countpairshe {
             }
             System.out.println(h.get(k));
         }
+        sc.close();
  
      }
  }
