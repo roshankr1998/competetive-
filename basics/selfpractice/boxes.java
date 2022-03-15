@@ -24,4 +24,5 @@ public class boxes {
       }
 
       System.out.println(max);
+      sc.close();
 }}

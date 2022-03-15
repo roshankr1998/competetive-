@@ -1,7 +1,7 @@
 package basics.selfpractice;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 public class playoff {
@@ -12,7 +12,7 @@ public class playoff {
             int n=sc.nextInt();
             int x=n;
             n=(int)Math.pow(2, n);
-            int a[]=new int[n];
+            //int a[]=new int[n];
             ArrayList <Integer> l=new ArrayList<>();
             for(int i=1;i<=n;i++){
                 l.add(i);
@@ -33,7 +33,7 @@ public class playoff {
             }
             System.out.println(l.get(0));
             
-        }
+        }sc.close();
     }
     
 }

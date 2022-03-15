@@ -1,9 +1,8 @@
 package basics.selfpractice;
 
-import java.util.ArrayList;
+
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class minimumweights {
@@ -28,6 +27,6 @@ public class minimumweights {
             pw+=a[i];
         }
         System.out.println(pw-weightc);
-        
+        sc.close();
     }}
 }

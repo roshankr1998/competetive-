@@ -12,6 +12,7 @@ public class minswap {
             a[i]=sc.nextInt();
         }
         System.out.println(minSwap(a, n, k));
+        sc.close();
     }
     public static int minSwap (int a[], int n, int k) {
         int count=0; int max=0;int legal=0;
@@ -30,5 +31,6 @@ public class minswap {
          }
          
          return (legal-max);  
+         
        }
 }

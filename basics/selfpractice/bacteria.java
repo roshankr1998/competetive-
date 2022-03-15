@@ -12,6 +12,7 @@ public class bacteria {
             a=a/2;
         }
         System.out.println(res);
+        sc.close();
     }
     
 }

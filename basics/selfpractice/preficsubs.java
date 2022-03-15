@@ -24,7 +24,7 @@ public class preficsubs {
                    
                 }    
                System.out.println(max); 
-	        
+               sc.close();
 	    }
 	    
 	    

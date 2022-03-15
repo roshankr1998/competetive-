@@ -18,4 +18,5 @@ public class hqnineplus {
         }
     }
     if(flag==0) System.out.println("NO");
+    sc.close();
 }}

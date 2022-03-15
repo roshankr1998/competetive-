@@ -20,6 +20,7 @@ public class queries {
         int r=sc.nextInt();
         if(l==0) System.out.println(maxsum[r]);
         else System.out.println(maxsum[r]-maxsum[l-1]);
+        sc.close();
     }
     
 }

@@ -1,6 +1,6 @@
 package basics.selfpractice;
 
-import java.util.HashMap;
+//import java.util.HashMap;
 import java.util.Scanner;
 
 public class fence {
@@ -9,7 +9,7 @@ public class fence {
         int n=sc.nextInt();
         int k=sc.nextInt();
         int a[]=new int[n];
-        HashMap <Integer,Integer> h=new HashMap<>();
+       // HashMap <Integer,Integer> h=new HashMap<>();
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
@@ -33,5 +33,6 @@ public class fence {
        // System.out.println(h.toString());
         //System.out.println(h.get(min));
         System.out.println(index);
+        sc.close();
     }
 }
