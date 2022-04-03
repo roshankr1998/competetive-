@@ -5,36 +5,36 @@ public class transformation {
     
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        int b=sc.nextInt();
+        long a=sc.nextLong();
+        long b=sc.nextLong();
 
        String s="";
-       int temp=a;
-       List<Integer> l=new ArrayList<>();
+       long temp=a;
+       List<Long> l=new ArrayList<>();
        solve(a,temp,b,l,1);
 
     }
 
-    private static void solve(int a, int temp, int b, List<Integer> l, int i) {
+    private static void solve(long a, long temp, long b, List<Long> l, int i) {
         if(temp==b){
+            l.add(b);
             System.out.println("YES");
             System.out.println(i);
-            System.out.println(l);
+            for(int ii=0;ii<l.size();ii++){
+            System.out.print(l.get(ii)+" ");}
             l=new ArrayList<>();
             return;
 
         }
         if(temp>b){
-            //i=0;
-            temp=a;
-            //2s="";
+           //System.out.println(l);
             return;
         }
         l.add(temp);
         solve(a, 2*temp, b,l, i+1);
-        
         solve(a, (10*temp)+1, b, l, i+1);
-        l.add(temp);l.remove(l.size()-1);
+        l.remove(l.size()-1);
+        if(l.isEmpty()) System.out.println("NO");
     }
     
 }
