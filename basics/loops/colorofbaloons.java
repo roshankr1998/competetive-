@@ -59,5 +59,6 @@ public class colorofbaloons {
     int res=Math.min(a,b);
     System.out.println(res);
     }
+    sc.close();
 } 
 }

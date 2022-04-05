@@ -8,11 +8,11 @@ public class transformation {
         long a=sc.nextLong();
         long b=sc.nextLong();
 
-       String s="";
+       //String s="";
        long temp=a;
        List<Long> l=new ArrayList<>();
        solve(a,temp,b,l,1);
-
+       sc.close();
     }
 
     private static void solve(long a, long temp, long b, List<Long> l, int i) {

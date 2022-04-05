@@ -10,7 +10,7 @@ public class minwindow {
     s.close(); 
    } 
    public static String minWindow(String s, String t) {
-    int sb[]=new int[26];
+    //int sb[]=new int[26];
     int tb[]=new int[26];
     for(int i=0;i<t.length();i++){
         tb[s.charAt(i)-'a']++;  

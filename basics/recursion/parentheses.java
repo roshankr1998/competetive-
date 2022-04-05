@@ -9,6 +9,7 @@ public class parentheses {
         List<String> l=new ArrayList<>();
         generate("",n,n,l);
         System.out.println(l);
+        sc.close();
     }
 
     private static void generate(String string, int open, int close, List<String> l) {

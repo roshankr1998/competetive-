@@ -20,6 +20,7 @@ public class secondmax {
         }
         if(a[n-1]>secondmax && a[n-1]<max) secondmax=a[n-1];
         System.out.println(secondmax);
+        sc.close();
     }
     
 }

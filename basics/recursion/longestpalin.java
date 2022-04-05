@@ -4,7 +4,7 @@ public class longestpalin {
     public static void main(String[] args) {
         String s="babad";
 
-        List<String> l=new ArrayList();
+        List<String> l=new ArrayList<>();
 
         solve(s,0,l,"");
         System.out.println(l);
@@ -20,6 +20,7 @@ public class longestpalin {
             }
         }
         System.out.println(res);
+    
     }
 
     private static boolean checkpalin(String string) {

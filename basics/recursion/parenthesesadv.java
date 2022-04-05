@@ -13,6 +13,7 @@ public class parenthesesadv {
         for(int i=0;i<l.size();i++){
             System.out.println(l.get(i));
         }
+        sc.close();
     }
 
     private static void generate(String string, int open, int close, int open1, int close1, List<String> l) {
