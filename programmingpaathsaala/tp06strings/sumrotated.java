@@ -1,4 +1,4 @@
-package basics.strings;
+package programmingpaathsaala.tp06strings;
 
 import java.util.Scanner;
 
@@ -18,6 +18,7 @@ public class sumrotated {
             carry=carry*10+sum;
         }
         System.out.println(carry);
+        sc.close();
         
     }
    

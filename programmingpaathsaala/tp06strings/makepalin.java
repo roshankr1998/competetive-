@@ -1,4 +1,4 @@
-package basics.strings;
+package programmingpaathsaala.tp06strings;
 
 import java.util.Scanner;
 
@@ -16,6 +16,7 @@ public class makepalin {
         n--;
     }
     System.out.println(count);
+    sc.close();
     }
     
 }
