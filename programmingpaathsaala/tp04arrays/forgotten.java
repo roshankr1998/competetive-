@@ -32,7 +32,7 @@ YES YES NO
 NO NO NO YES*/
 
 
-package basics.arrays;
+package programmingpaathsaala.tp04arrays;
 
 import java.util.ArrayList;
 import java.util.Scanner;

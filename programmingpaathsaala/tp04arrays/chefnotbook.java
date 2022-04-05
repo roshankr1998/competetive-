@@ -49,7 +49,7 @@ Example case 2. Chef cannot buy any notebook, because the prices exceed the Chef
 Example case 3. No notebook contains sufficient number of pages required to write poetry.*/
 
 
-package basics.arrays;
+package programmingpaathsaala.tp04arrays;
 import java.util.*; 
 public class chefnotbook {
     public static void main(String[] args) {

@@ -32,7 +32,7 @@ Turn ID	IDs of involved workers	Salaries after the move
 Example Case 2. All salaries are already equal. He doesn't need to do anything.*/
 
 
-package basics.arrays;
+package programmingpaathsaala.tp04arrays;
 
 import java.util.Scanner;
 

@@ -34,7 +34,7 @@ Example case I : 1 2 3 4 5 combined with 3 2 1 4 5
 Forms the array 31 22 31 44 55 since 31>13, 22=22, 31>13, 44=44, 55=55*/
 
 
-package basics.arrays;
+package programmingpaathsaala.tp04arrays;
 import java.util.*;
 public class chefandarrays {
     public static void main(String[] args) {

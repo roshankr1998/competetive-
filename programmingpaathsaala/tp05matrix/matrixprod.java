@@ -1,4 +1,4 @@
-package basics.matrix;
+package programmingpaathsaala.tp05matrix;
 import java.util.*;
 public class matrixprod {
     public static void main (String[] args) throws java.lang.Exception
@@ -36,6 +36,8 @@ public class matrixprod {
 	}
 	else{
 	    System.out.println("IMPOSSIBLE");
+
 	}
+	sc.close();
     }
 }

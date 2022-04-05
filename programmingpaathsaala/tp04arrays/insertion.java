@@ -1,4 +1,4 @@
-package basics.arrays;
+package programmingpaathsaala.tp04arrays;
 
 public class insertion {
     public static void main(String[] args) {

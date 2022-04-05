@@ -46,7 +46,7 @@ Example case 1. The first student has 1 unit of time - the moment 0. It will be 
 Example case 2. Each of students has 10 units of time, but only the second one will be able to fit in time.*/
 
 
-package basics.arrays;
+package programmingpaathsaala.tp04arrays;
 import java.util.*;
 public class Chefkitchen {
     public static void main(String[] args) {

@@ -55,7 +55,7 @@ The third one has no elements with value 7 after elements with value 6.*/
 
 
 
-package basics.arrays;
+package programmingpaathsaala.tp04arrays;
 
 import java.util.Scanner;
 
