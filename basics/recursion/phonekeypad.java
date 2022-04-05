@@ -1,5 +1,7 @@
 package basics.recursion;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +10,7 @@ public class phonekeypad {
         String a="23";
         String dig[]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
         List<Character> l=new ArrayList<>(); 
+        
         List<String> res=new ArrayList<>();
         if(a.length()==0){ System.out.println(res);
             }else{
@@ -16,6 +19,7 @@ public class phonekeypad {
             }
 
     }
+
 
     private static void find(String a, String[] dig, List<Character> l, int ind, List<String> res) {
         if(ind==a.length()){
