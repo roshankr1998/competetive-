@@ -28,6 +28,7 @@ public class alyonaandflowers {
         }
 
         System.out.println(sum);
+        sc.close();
     }
     
 }
